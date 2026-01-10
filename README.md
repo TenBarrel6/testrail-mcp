@@ -22,13 +22,13 @@ npx testrail-mcp
 ### Global Installation
 
 ```bash
-npm install -g testrail-mcp
+npm i @tenbarrel6/testrail-mcp
 ```
 
 ### Local Installation
 
 ```bash
-npm install testrail-mcp
+npm i @tenbarrel6/testrail-mcp
 ```
 
 ## Configuration
@@ -345,6 +345,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## Links
 
+- [npm Package](https://www.npmjs.com/package/@tenbarrel6/testrail-mcp)
 - [GitHub Repository](https://github.com/TenBarrel6/testrail-mcp)
 - [TestRail API Documentation](https://support.testrail.com/hc/en-us/articles/7077039051412-Introduction-to-the-TestRail-API)
 - [Model Context Protocol](https://modelcontextprotocol.io/)
