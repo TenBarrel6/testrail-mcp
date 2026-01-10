@@ -11,24 +11,24 @@ A [Model Context Protocol (MCP)](https://modelcontextprotocol.io/) server for se
 
 ## Installation
 
-### Using npx (Recommended)
-
-No installation required - run directly:
-
-```bash
-npx testrail-mcp
-```
-
 ### Global Installation
 
 ```bash
-npm i @tenbarrel6/testrail-mcp
+npm i -g @tenbarrel6/testrail-mcp
 ```
 
 ### Local Installation
 
 ```bash
 npm i @tenbarrel6/testrail-mcp
+```
+
+### Using npx
+
+No installation required - run directly in downloaded github repository:
+
+```bash
+npx testrail-mcp
 ```
 
 ## Configuration
