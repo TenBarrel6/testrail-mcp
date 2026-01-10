@@ -1,0 +1,12 @@
+src/
+*.ts
+tsconfig.json
+.git/
+.gitignore
+node_modules/
+.env
+.env.local
+.env.example
+*.md
+!README.md
+cursor-config.example.json

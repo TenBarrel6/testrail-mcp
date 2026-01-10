@@ -1,0 +1,14 @@
+{
+  "mcpServers": {
+    "testrail": {
+      "command": "npx",
+      "args": ["-y", "testrail-mcp"],
+      "env": {
+        "TESTRAIL_URL": "https://your-company.testrail.io",
+        "TESTRAIL_USERNAME": "your-email@company.com",
+        "TESTRAIL_API_KEY": "your-api-key-here"
+      }
+    }
+  }
+}
+

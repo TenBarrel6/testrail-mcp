@@ -1,0 +1,54 @@
+{
+  "name": "@tenbarrel6/testrail-mcp",
+  "version": "1.0.0",
+  "description": "TestRail MCP Server with TestRail API v9.7.2 support",
+  "main": "dist/index.js",
+  "type": "module",
+  "bin": {
+    "testrail-mcp": "dist/index.js"
+  },
+  "files": [
+    "dist",
+    "README.md",
+    "LICENSE"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "prepublishOnly": "npm run build",
+    "start": "node dist/index.js",
+    "dev": "tsx src/index.ts"
+  },
+  "keywords": [
+    "mcp",
+    "testrail",
+    "test",
+    "rail",
+    "testing",
+    "automation",
+    "model-context-protocol",
+    "code",
+    "vscode",
+    "cursor",
+    "qa"
+  ],
+  "homepage": "https://github.com/TenBarrel6/testrail-mcp#readme",
+  "bugs": {
+    "url": "https://github.com/TenBarrel6/testrail-mcp/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TenBarrel6/testrail-mcp.git"
+  },
+  "license": "MIT",
+  "author": "tenBarrel6",
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^0.4.0",
+    "axios": "^1.6.0",
+    "dotenv": "^16.3.1"
+  },
+  "devDependencies": {
+    "@types/node": "^20.0.0",
+    "tsx": "^4.0.0",
+    "typescript": "^5.0.0"
+  }
+}
