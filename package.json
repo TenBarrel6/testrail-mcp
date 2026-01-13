@@ -1,6 +1,6 @@
 {
   "name": "@tenbarrel6/testrail-mcp",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "TestRail MCP Server with TestRail API v9.7.2 support",
   "main": "dist/index.js",
   "type": "module",
