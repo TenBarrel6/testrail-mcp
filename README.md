@@ -28,7 +28,7 @@ npm i @tenbarrel6/testrail-mcp
 No installation required - run directly in downloaded github repository:
 
 ```bash
-npx testrail-mcp
+npx @tenbarrel6/testrail-mcp
 ```
 
 ## Configuration
@@ -52,7 +52,7 @@ Add to your Cursor settings (`.cursor/mcp.json` or global settings):
   "mcpServers": {
     "testrail": {
       "command": "npx",
-      "args": ["-y", "testrail-mcp"],
+      "args": ["-y", "@tenbarrel6/testrail-mcp"],
       "env": {
         "TESTRAIL_URL": "https://your-company.testrail.io",
         "TESTRAIL_USERNAME": "your-email@company.com",
@@ -72,7 +72,7 @@ Add to your Claude Desktop config (`~/Library/Application Support/Claude/claude_
   "mcpServers": {
     "testrail": {
       "command": "npx",
-      "args": ["-y", "mcp-testrail"],
+      "args": ["-y", "@tenbarrel6/testrail-mcp"],
       "env": {
         "TESTRAIL_URL": "https://your-company.testrail.io",
         "TESTRAIL_USERNAME": "your-email@company.com",
